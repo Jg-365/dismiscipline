@@ -1,4 +1,4 @@
-# 🟧 Dismissipline — your. class. tracker.
+# 🟧 Dismiscipline — your. class. tracker.
 
 **Dismissipline** is a personal academic tracking tool designed to help students monitor **absences**, **grades**, and **disciplinary performance** in a clean and intuitive way.  
 
@@ -20,7 +20,7 @@ Built from scratch using **React**, this app combines **data visualization**, **
 
 ## 🖼️ Screenshots
 
-![Dashboard Mockup](C:\Users\joaog\Downloads\Home.png)
+![Dashboard Mockup](./mockups/Home.png)
 
 ---
 
