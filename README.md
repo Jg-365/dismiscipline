@@ -66,7 +66,7 @@ npm install
 npm run dev
 ```
 ---
-#📦 Future Enhancements
+## 📦 Future Enhancements
 - Full CRUD with backend (Node + MongoDB)
 
 - Login/authentication with JWT
@@ -78,7 +78,7 @@ npm run dev
 - Notifications (browser or email)
 ---
 
-#✨ Inspiration
+## ✨ Inspiration
 
 This project was born out of a personal need for a more visual, modern and user-friendly way to track attendance and academic progress — and to combine design + dev in one smart solution.
 
