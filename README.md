@@ -20,7 +20,7 @@ Built from scratch using **React**, this app combines **data visualization**, **
 
 ## 🖼️ Screenshots
 
-![Dashboard Mockup](./assets/screens/dashboard-preview.png)
+![Dashboard Mockup](C:\Users\joaog\Downloads\Home.png)
 
 ---
 
