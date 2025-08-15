@@ -5,6 +5,8 @@ import UserIconUrl from "../assets/user.svg?url";
 import SettingsIconUrl from "../assets/settings.svg?url";
 import WarningIconUrl from "../assets/warning.svg?url";
 import CalendarIconUrl from "../assets/calendar.svg?url";
+import CheckIconUrl from "../assets/check.svg?url";
+import LogoIconUrl from "../assets/logo.svg?url";
 
 // Componentes que renderizam os SVGs como imagens
 export const FilterIcon = (
@@ -29,6 +31,12 @@ export const CalendarIcon = (
 ) => (
   <img src={CalendarIconUrl} alt="Calendar" {...props} />
 );
+export const CheckIcon = (
+  props: React.ImgHTMLAttributes<HTMLImageElement>
+) => <img src={CheckIconUrl} alt="Check" {...props} />;
+export const LogoIcon = (
+  props: React.ImgHTMLAttributes<HTMLImageElement>
+) => <img src={LogoIconUrl} alt="Logo" {...props} />;
 
 // Objeto com os ícones (para compatibilidade)
 export const icons = {
@@ -38,4 +46,6 @@ export const icons = {
   warning: WarningIcon,
   filter: FilterIcon,
   calendar: CalendarIcon,
+  check: CheckIcon,
+  logo: LogoIcon,
 };
