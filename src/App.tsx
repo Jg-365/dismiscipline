@@ -1,16 +1,69 @@
-import Card from './components/Card.tsx'
-import './App.css'
+import Card from "./components/Card.tsx";
+import { icons } from "./icons/index.tsx";
+import "./App.css";
+
+const HomeIcon = icons.home;
+const UserIcon = icons.user;
+const SettingsIcon = icons.settings;
+const WarningIcon = icons.warning;
+const FilterIcon = icons.filter;
+const CalendarIcon = icons.calendar;
 
 function App() {
-
   return (
     <>
-    <Card title="Card Title" paragraph="Card Paragraph" icon={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="black" className="size-4">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
-    </svg>
-} />
+      <div className="grid grid-cols-4 gap-4">
+        <Card
+          className="col-span-4"
+          title="Card Title"
+          paragraph="Card Paragraph"
+          icon={
+            <HomeIcon className="text-blue-500 w-6 h-6" />
+          }
+        />
+        <Card
+          className="col-span-4"
+          title="Reminder"
+          paragraph="Upcoming physics class starting 10 minutes from now"
+          icon={
+            <CalendarIcon className="text-blue-500 w-6 h-6" />
+          }
+        />
+        <Card
+          className="col-span-4"
+          title="Reminder"
+          paragraph="Upcoming physics class starting 10 minutes from now"
+          icon={
+            <SettingsIcon className="text-blue-500 w-6 h-6" />
+          }
+        />
+        <Card
+          className="col-span-4"
+          title="Reminder"
+          paragraph="Upcoming physics class starting 10 minutes from now"
+          icon={
+            <FilterIcon className="text-blue-500 w-6 h-6" />
+          }
+        />
+        <Card
+          className="col-span-4"
+          title="Reminder"
+          paragraph="Upcoming physics class starting 10 minutes from now"
+          icon={
+            <UserIcon className="text-blue-500 w-6 h-6" />
+          }
+        />
+        <Card
+          className="col-span-4"
+          title="Reminder"
+          paragraph="Upcoming physics class starting 10 minutes from now"
+          icon={
+            <WarningIcon className="text-blue-500 w-6 h-6" />
+          }
+        />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
