@@ -7,6 +7,9 @@ import WarningIconUrl from "../assets/warning.svg?url";
 import CalendarIconUrl from "../assets/calendar.svg?url";
 import CheckIconUrl from "../assets/check.svg?url";
 import LogoIconUrl from "../assets/logo.svg?url";
+import GraphIconUrl from "../assets/chart-bar.svg?url";
+import CapIconUrl from "../assets/academic-cap.svg?url";
+import SearchIconUrl from "../assets/search.svg?url";
 
 // Componentes que renderizam os SVGs como imagens
 export const FilterIcon = (
@@ -37,6 +40,15 @@ export const CheckIcon = (
 export const LogoIcon = (
   props: React.ImgHTMLAttributes<HTMLImageElement>
 ) => <img src={LogoIconUrl} alt="Logo" {...props} />;
+export const GraphIcon = (
+  props: React.ImgHTMLAttributes<HTMLImageElement>
+) => <img src={GraphIconUrl} alt="Graph" {...props} />;
+export const CapIcon = (
+  props: React.ImgHTMLAttributes<HTMLImageElement>
+) => <img src={CapIconUrl} alt="Cap" {...props} />;
+export const SearchIcon = (
+  props: React.ImgHTMLAttributes<HTMLImageElement>
+) => <img src={SearchIconUrl} alt="Search" {...props} />;
 
 // Objeto com os ícones (para compatibilidade)
 export const icons = {
@@ -48,4 +60,7 @@ export const icons = {
   calendar: CalendarIcon,
   check: CheckIcon,
   logo: LogoIcon,
+  graph: GraphIcon,
+  cap: CapIcon,
+  search: SearchIcon,
 };
